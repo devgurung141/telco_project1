@@ -50,7 +50,7 @@ Payment_type_id|customer’s payment type id| 1, 2, 3, 4|
 | Contract_type_id| customer’s contract type id| 1, 2, 3|
 | Internet_service_type_id| customer’s internet service type id| 1, 2, ,3, 4|
 |  Customer_id| customer’s id|
-|  Gender| customer’s gender| male, female|
+|  Gender| customer’s gender male, female|
 |  Senior_citizen| is the customer a senior citizen? 0, 1|
 |  Partner| Does the customer have a partner? yes, no|
 |  Dependents| Does the customer have dependents? yes, no|
