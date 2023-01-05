@@ -74,7 +74,7 @@ Payment_type_id|customer’s payment type id| 1, 2, 3, 4|
 # Steps to Reproduce
 1. Clone this repo 
 2. To acquire data, need to have access to to MYSQL database of codeup. 
-3. Data can be also be acquired from [Kaggle] https://www.kaggle.com/datasets/blastchar/telco-customer-churn, save a file as 'telco.csv' and put the file into the cloned repo 
+3. Data can be also be acquired from [Kaggle] (https://www.kaggle.com/datasets/blastchar/telco-customer-churn), save a file as 'telco.csv' and put the file into the cloned repo 
 5. Run notebook
 
 # Takeaways and Conclusions
