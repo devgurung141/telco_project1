@@ -243,7 +243,7 @@ def baseline_accuracy():
     
     
 def decision_tree():
-    '''get decision tree accuracy on train and validate data'''
+    '''get decision tree accuracy score on train and validate data'''
     
     # create model
     clf = DecisionTreeClassifier(max_depth = 6, random_state=42)
@@ -263,7 +263,7 @@ def decision_tree():
     
     
 def random_forest():
-    '''get random forest accuracy on train and validate data'''
+    '''get random forest accuracy score on train and validate data'''
     
     # create model
     rf= RandomForestClassifier(min_samples_leaf = 10, random_state=42) 
@@ -284,8 +284,7 @@ def random_forest():
 
 
 def knn():
-    '''get KNN accuracy on train and validate data
-    return dataframw with predictions'''
+    ''' get KNN accuracy score on train and validate data'''
     
     # create model
     knn= KNeighborsClassifier(n_neighbors = 10) 
@@ -302,10 +301,10 @@ def knn():
     
     # print accuracy score on validate
     print(f'KNN Accuracy score on validate set: {validate_acc}')
-
     
+        
 def logistic_regression():
-    '''get logistic regression accuracy on train and validate data'''
+    '''get logistic regression accuracy score on train and validate data'''
     
     # create model
     logit = LogisticRegression(C = 1, random_state=seed, solver='liblinear')
@@ -359,10 +358,10 @@ def logit_test():
     y_pred_proba = np.array([i[1] for i in y_pred_proba])
 
     # create a dataframe
-    test_results = pd.DataFrame({'customer_id': test.customer_id,'probability': y_pred_proba,'prediction': y_test_pred})
+    predictions = pd.DataFrame({'customer_id': test.customer_id,'probability': y_pred_proba,'prediction': y_test_pred})
     
     # return dataframe
-    return test_results
+    return predictions
 
 
 
