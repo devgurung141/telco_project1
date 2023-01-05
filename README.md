@@ -5,9 +5,9 @@
 Telco is a telecommunication company that is seeing 27%  of customer churn. The goal of the project is to analyze the data, find driving features of customer churn, predict cusotmer churn, and recommend actions to reduce customer churn.  
 
 # Project Goals
-* Discover driver of customer churn at Telco
+* Discover drivers of customer churn at Telco
 * Use drivers to develop a model to predict customer churn
-* Offer recommendation to reduce customer churn
+* Offer recommendations to reduce customer churn
 
 # Initial Questions
 * Find percentage of churn
@@ -19,13 +19,13 @@ Telco is a telecommunication company that is seeing 27%  of customer churn. The 
 # The Plan
 
 * Acquire data
-    * Acquire data from Telco_churn database from Codeup database using SQl queryy using function from acquire.py file
+    * Acquire data from Telco_churn database from Codeup database using SQL queryy using function from acquire.py file
 
 * Prepare data
     * Use functions from prepare.py to clean data. 
-    * Drop unnecessary columns. 
-    * Replace white space and convert data types.
-    * Encode attributes to fit in ML format.
+      * Drop unnecessary columns. 
+      * Replace white space and convert data types.
+      * Encode attributes to fit in ML format.
     * split data into train, validate and test (approximatley 56/24/20)
 
 * Explore Data
@@ -73,16 +73,16 @@ Payment_type_id|customer’s payment type id: 1, 2, 3, 4|
 
 # Steps to Reproduce
 1. Clone this repo 
-2. To acquire data, need to have access to to MYSQL database of codeup. 
-3. Data can be also be acquired from [Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn), save a file as 'telco.csv' and put the file into the cloned repo 
+2. To acquire data, need to have access to to MySQL database of codeup. 
+3. Data can be also be acquired from [Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn), save a file as 'telco.csv', and put the file into the cloned repo 
 5. Run notebook
 
 # Takeaways and Conclusions
 * Customer churn is about 27%.
-* Gender and Phone service are not driving customer churn.
-* online security, online backup, device protection, tech support, internet service type, tenure, monthly charges, and total charges are main drivers of customer churn.
+* Gender and phone service are not driving customer churn.
+* Contract type, online security, online backup, device protection, tech support, internet service type, tenure, monthly charges, and total charges are main drivers of customer churn.
 * Customers with high monthly charges churn in higher ratio.
-* Contract type is one of main driver of customer churn. Customers with contract type of month-to-month churn in higher ratio than customers with other contract type
+* Contract type is one of main drivers of customer churn. Customers with contract type of month-to-month churn in higher ratio than customers with other contract type
 * Customers with add on : online security, online backup, device protection, and tech support churn less than customers who do do not have those add on.
 
 # Recommendations
