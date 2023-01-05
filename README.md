@@ -54,22 +54,22 @@ Payment_type_id|customer’s payment type id| 1, 2, 3, 4|
 |  Senior_citizen| is the customer a senior citizen? 0, 1|
 |  Partner| Does the customer have a partner? yes, no|
 |  Dependents| Does the customer have dependents? yes, no|
-|  Tenure| Duration in month customer have been with the company|
+|  Tenure| How long customer have been with the company? tenure is in month|
 |  Phone_sevice| Does the customer have phone service? yes, no|
 |  Multiple_lines | Does the customer have multiple phone lines? yes, no, no phone service|
 |  Online_security| Does the customer have online security? yes, no, no internet service|
 |  Online_backup| Does the customer have online backup? yes, no, no internet service|
 |  Device_protection| Does the customer have device protection? yes, no, no internet service|
 |  Tech_support| Does the customer have tech support?yes, no, no internet service|
-|  Streaming _tv| Does the customer have streaming tv| yes, no, no internet service|
-|  Streaming _movies| Does the customer have streaming movies?| yes, no, no internet service|
+|  Streaming _tv| Does the customer have streaming tv? yes, no, no internet service|
+|  Streaming _movies| Does the customer have streaming movies? yes, no, no internet service|
 |  Paperless_billing| Does the customer use paperless billing? yes, no|
 |  Monthly_charges| the customer’s monthly charges|
 |  Total_charges| the customer’s total charges|
 |  Churn| Did the customer churn? yes, no|
-|  Internet_service_type| Type of internet service| fiber, DSL, none|
-|  Contract_type| Type of contract| two year, one year, month-to-month|
-|  Payement_type| Type of payment| electronic, mailed check, bank transfer (automatic), credit card (automatic)|
+|  Internet_service_type| Type of internet service: fiber, DSL, none|
+|  Contract_type| Type of contract: two year, one year, month-to-month|
+|  Payement_type| Type of payment: electronic check, mailed check, bank transfer (automatic), credit card (automatic)|
 
 # Steps to Reproduce
 1. Clone this repo 
