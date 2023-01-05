@@ -19,7 +19,7 @@ Telco is a telecommunication company that is seeing 27%  of customer churn. The 
 # The Plan
 
 * Acquire data
-    * Acquire data from Telco_churn database from Codeup database using SQL queryy using function from acquire.py file
+    * Acquire data from Telco_churn database from Codeup database using MySQL queryy using function from acquire.py file
 
 * Prepare data
     * Use functions from prepare.py to clean data. 
