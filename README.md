@@ -5,45 +5,43 @@
 Telco is a telecommunication company that is seeing 27%  of customer churn. The goal of the project is to analyze the data, find driving features of customer churn, predict cusotmer churn, and recommend actions to reduce customer churn.  
 
 # Project Goals
-
-    * Discover driver of customer churn at Telco
-    * Use drivers to develop a model to predict customer churn
-    * Offer recommendation to reduce customer churn
+* Discover driver of customer churn at Telco
+* Use drivers to develop a model to predict customer churn
+* Offer recommendation to reduce customer churn
 
 # Initial Questions
-
-    * Find percentage of churn
-    * Find important categorical variables driving customer churn
-    * Do customers who churn have a higher average monthly charge than customers who do not churn?
-    * Does contract type play a role in higher customer churn?
-    * Do customers with tech support likely to churn less?
+* Find percentage of churn
+* Find important categorical variables driving customer churn
+* Do customers who churn have a higher average monthly charge than customers who do not churn?
+* Does contract type play a role in higher customer churn?
+* Do customers with tech support likely to churn less?
 
 # The Plan
 
-    * Acquire data
-        * Acquire data from Telco_churn database from Codeup database using SQl queryy using function from acquire.py file
+* Acquire data
+    * Acquire data from Telco_churn database from Codeup database using SQl queryy using function from acquire.py file
 
-    * Prepare data
-        * Use functions from prepare.py to clean data. 
-        * Drop unnecessary columns. 
-        * Replace white space and convert data types.
-        * Encode attributes to fit in ML format.
-        * split data into train, validate and test (approximatley 56/24/20)
+* Prepare data
+    * Use functions from prepare.py to clean data. 
+    * Drop unnecessary columns. 
+    * Replace white space and convert data types.
+    * Encode attributes to fit in ML format.
+    * split data into train, validate and test (approximatley 56/24/20)
 
-    * Explore Data
-	    * Use graph and hypothesis testing to find churn, driving factors of churn, and answer the following initial questions
-            * Do customers who churn have a higher average monthly charge than customers who do not churn?
-            * Does contract type play a role in higher customer churn?
-            * Do customers with tech support likely to churn less?
+* Explore Data
+    * Use graph and hypothesis testing to find churn, driving factors of churn, and answer the following initial questions
+        * Do customers who churn have a higher average monthly charge than customers who do not churn?
+        * Does contract type play a role in higher customer churn?
+        * Do customers with tech support likely to churn less?
 
-    * Develop Model
-        * Use driving attributes to create labels
-	    * Set up baseline prediction
-	    * Evaluate models on train data and validate data
-	    * Select the best model based on the highest accuracy 
-	    * Evaluate the best model on test data to make predictions
+* Develop Model
+    * Use driving attributes to create labels
+    * Set up baseline prediction
+    * Evaluate models on train data and validate data
+    * Select the best model based on the highest accuracy 
+    * Evaluate the best model on test data to make predictions
 
-    * Draw Conclusions
+* Draw Conclusions
 
 # Data Dictionary
 | Feature | Definition |
