@@ -46,9 +46,9 @@ Telco is a telecommunication company that is seeing 27%  of customer churn. The 
 # Data Dictionary
 | Feature | Definition |
 |:--------|:-----------|
-Payment_type_id|customer’s payment type id| 1, 2, 3, 4|
-| Contract_type_id| customer’s contract type id| 1, 2, 3|
-| Internet_service_type_id| customer’s internet service type id| 1, 2, ,3, 4|
+Payment_type_id|customer’s payment type id: 1, 2, 3, 4|
+| Contract_type_id| customer’s contract type id: 1, 2, 3|
+| Internet_service_type_id| customer’s internet service type id: 1, 2, ,3, 4|
 |  Customer_id| customer’s id|
 |  Gender| customer’s gender: male, female|
 |  Senior_citizen| is the customer a senior citizen? 0, 1|
