@@ -13,7 +13,7 @@ seed =42
 
 
 def vis_pie_churn(train):
-    '''takes in a dataframe train and show pie chart of churn'''
+    '''takes in a dataframe and show pie chart of churn'''
     
     # set values and labels for chart
     values = [(train.churn == 'Yes').sum(), (train.churn == 'No').sum()] 
@@ -108,7 +108,7 @@ def chi_test(cols, train):
             chi2, p, degf, expected = stats.chi2_contingency(observed)
             
             # print column name
-            print(f'{col}: ')
+            print(f'{col}: \n')
             
             # print Null Hypothesis followed by a new line
             print(f'Null Hypothesis: {null_hypothesis}\n')
