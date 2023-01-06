@@ -31,6 +31,7 @@ def vis_countplot(col, train):
     #plot countplot graph
     sns.countplot(x=col, hue='churn', data=train)
     plt.xticks(rotation=45)
+    plt.title(col + ' relationship with churn')
     plt.show()
 
     
@@ -39,6 +40,7 @@ def vis_distplot(col, train):
     
     # plot distplot graph
     sns.displot( x=col, hue='churn', data=train, multiple="dodge")
+    plt.title(col + ' relationship with churn')
     plt.show()
     
     
@@ -49,6 +51,7 @@ def vis_countplot_cat(cols, train):
     for col in cols:
         if col != 'churn':
             sns.countplot(x=col, hue='churn', data=train)
+            plt.title(col + ' relationship with churn')
             plt.xticks(rotation=45)
             plt.show()
             
@@ -59,6 +62,7 @@ def vis_distplot_num(cols, train):
     # plot distplot graph
     for col in cols:
         sns.displot(x=col, hue='churn', data=train, multiple="dodge")
+        plt.title(col + ' relationship with churn')
         plt.show()
 
         
