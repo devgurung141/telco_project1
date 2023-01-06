@@ -1,8 +1,7 @@
-# Telco Churn
+# Customer Churn at Telco
 
 # Project Description
-
-Telco is a telecommunication company that is seeing 27%  of customer churn. The goal of the project is to analyze the data, find driving features of customer churn, predict cusotmer churn, and recommend actions to reduce customer churn.  
+Telco is a telecommunication company that wants to predict customer churn. The goal of the project is to analyze the data, find driving features of customer churn, predict cusotmer churn, and recommend actions to reduce customer churn.  
 
 # Project Goals
 * Discover drivers of customer churn at Telco
@@ -11,10 +10,10 @@ Telco is a telecommunication company that is seeing 27%  of customer churn. The 
 
 # Initial Questions
 * Find percentage of churn
-* Find important categorical variables driving customer churn
+* Does dependents effect on customer churn?
 * Do customers who churn have a higher average monthly charge than customers who do not churn?
-* Does contract type play a role in higher customer churn?
-* Do customers with tech support likely to churn less?
+* Is contract type driving factor of customer churn?
+* Do customers with tech support less likely to churn than customers without tech support?
 
 # The Plan
 
