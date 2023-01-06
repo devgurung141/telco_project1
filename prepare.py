@@ -43,11 +43,14 @@ def train_validate_test_split(df, target, seed=42):
     This function takes in a dataframe and return train, validate and test dataframe; stratify on target
     '''
     
-   
+    # split data into 80% train_validate, 20% test
     train_validate, test = train_test_split(df, test_size=0.2, 
                                             random_state=seed, 
                                             stratify=df[target])
+    
+    # split train_validate data into 70% train, 30% validate
     train, validate = train_test_split(train_validate, test_size=0.3, 
                                        random_state=seed,
                                        stratify=train_validate[target])
+    # return train, validate, test
     return train, validate, test
